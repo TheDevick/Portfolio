@@ -3,7 +3,7 @@ title: Readonly Classes in PHP 8.2
 date: 2022/12/19
 description: Let's learn how the Readonly Classes works in PHP 8.2!
 tag: New in PHP 8.2
-author: You
+author: TheDevick
 ---
 
 # Readonly Classes in PHP 8.2 📖
@@ -12,15 +12,15 @@ author: You
 
 In [PHP 8.1](https://www.php.net/releases/8.1/en.php), the developers team of PHP added the [Readonly Properties](https://www.php.net/manual/en/language.oop5.properties.php#language.oop5.properties.readonly-properties), which is a way to protect the properties, blocking any modification in his value after the Initialization.
 
-```
+```php
 class Client
 {
   public function __construct(
-		public readonly string $name,
-		public readonly string $email
-	)
-	{
-	}
+    public readonly string $name,
+    public readonly string $email
+  )
+  {
+  }
 }
 
 $client = new Client("Erick", "email@domain.com");
@@ -32,7 +32,7 @@ $client->email = "other@mail.com" // This isn't allowed because the properties a
 It's cool, isn't it? But we can see that all the properties in the `Client` class are `readonly`.
 Then, in PHP 8.2, you can say that a class is readonly, and all the declared properties will be readonly. Let's check:
 
-```
+```php
 readonly class Client
 {
   public function __construct(
