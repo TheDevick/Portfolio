@@ -15,7 +15,7 @@ author: TheDevick
 An situation that every developer probably already passed through is when a database is down. In our example, we have an function that get the post from the database, but we're simulating that the database is down.
 
 ```php
-function getPosts(string $path): bool|array
+function getPosts(): bool|array
 {
     // Access the Database and get the Posts
 
@@ -29,7 +29,7 @@ Note that, the return of the function must be **False** or an **Array**. But, we
 Well, the [**Standalone Types**](https://www.php.net/releases/8.2/en.php#null_false_true_types), introduced in [**PHP 8.2**](https://www.php.net/releases/8.2/en.php) fixes that. In our example:
 
 ```php
-function getPosts(string $path): false|array
+function getPosts(): false|array
 {
     // Access the Database and get the Posts
 
