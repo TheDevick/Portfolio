@@ -1,6 +1,6 @@
 ---
 title: Imersão Dev - Um Novo Marco na Comunidade Dev
-date: 2023/01/28
+date: 2023/01/11
 description: Um Novo Marco Na Comunidade Dev
 tag: Portuguese Tab News
 author: TheDevick
