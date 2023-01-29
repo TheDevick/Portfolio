@@ -1,6 +1,6 @@
 ---
 title: Imersão Dev - Introdução ao Curso
-date: 2023/01/28
+date: 2023/01/27
 description: Introdução ao Curso
 tag: Portuguese Tab News
 author: TheDevick
