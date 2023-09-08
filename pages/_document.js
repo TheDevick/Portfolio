@@ -4,7 +4,7 @@ export default function Document() {
   const meta = {
     title: 'The Devick Webiste',
     description: 'The Devick | PHP Developer.',
-    image: 'https://assets.vercel.com/image/upload/q_auto/front/vercel/dps.png'
+    image: 'https://www.gravatar.com/avatar/c4cb01ab683521cece7e52e6ea9e9262?s=200'
   }
 
   return (
