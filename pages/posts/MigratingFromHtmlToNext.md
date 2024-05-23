@@ -77,21 +77,23 @@ export default makeSource({ contentDirPath: 'src/posts', documentTypes: [Post] }
 
 This configuration file defines how the markdown FrontMatter should behave and automatically generates types, which is incredibly useful.
 
+From now on, I'll be giving examples about a post of the [Solar Project Recanto da Amizade](https://www.bilhalba.com.br/posts/recanto-da-amizade).
+
 For each post, I added images in the following structure:
 
-- `public/posts/recanto-dos-amigos/main.jpg` Main picture (typically horizontal).
-- `public/posts/recanto-dos-amigos/side.jpg` Side picture (typically vertical).
+- `public/posts/recanto-da-amizade/main.jpg` Main picture (typically horizontal).
+- `public/posts/recanto-da-amizade/side.jpg` Side picture (typically vertical).
 
-I also created folders within public/posts/recanto-dos-amigos for additional images, which are displayed as a gallery at the end of each post.
+I also created folders within public/posts/recanto-da-amizade for additional images, which are displayed as a gallery at the end of each post.
 
 Here is an example of a markdown file:
 
 ```md
-// src/posts/recanto-dos-amigos.html 
+// src/posts/recanto-da-amizade.html 
 ---
 date: 2024-05-20
-title: Bilhalba Engenharia com Projeto Solar no Bar Recanto dos Amigos
-description: Visando o fortalecimento ambiental e resultados econômicos significativos a longo prazo, o Bar Recanto dos Amigos adere a sustentabilidade da Geração Solar.
+title: Bilhalba Engenharia com Projeto Solar no Bar Recanto da Amizade
+description: Visando o fortalecimento ambiental e resultados econômicos significativos a longo prazo, o Bar Recanto da Amizade adere a sustentabilidade da Geração Solar.
 ---
 
 No Bar Recanto da Amizade, foi instalado um gerador solar, composto por painéis solares JinkoSolar de 585W cada e um inversor Growatt, garantindo um sistema eficiente e robusto.
