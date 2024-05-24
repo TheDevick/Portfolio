@@ -291,4 +291,4 @@ And here is the post page.
 
 ## Conclusion
 
-I successfully migrated the site to NextJs within a day, and it's now live on [bilhalba.com.br](htpps://bilhalba.com.br), hosted on [Github](https://github.com/TheDevick/BilhalbaEngenharia) and deployed at Vercel. While the project was a success, there are areas for improvement which I plan to address in the coming days. If you're interested, feel free to check it out and follow along with the updates.
+I successfully migrated the site to NextJs within a day, and it's now live on [bilhalba.com.br](https://bilhalba.com.br), hosted on [Github](https://github.com/TheDevick/BilhalbaEngenharia) and deployed at Vercel. While the project was a success, there are areas for improvement which I plan to address in the coming days. If you're interested, feel free to check it out and follow along with the updates.
