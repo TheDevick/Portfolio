@@ -25,7 +25,7 @@ class Client
   }
 }
 
-$client = new Client("Erick", "erick@bilhalba.com.br");
+$client = new Client("Erick", "erick@abellabilhalba.eng.br");
 $client->age = 15;
 ```
 
@@ -37,7 +37,7 @@ object(Client)#1 (3) {
   ["name"]=>
   string(5) "Erick"
   ["email"]=>
-  string(21) "erick@bilhalba.com.br"
+  string(21) "erick@abellabilhalba.eng.br"
   ["age"]=>
   int(15)
 }
@@ -82,7 +82,7 @@ class Client
   }
 }
 
-$client = new Client("Erick", "erick@bilhalba.com.br");
+$client = new Client("Erick", "erick@abellabilhalba.eng.br");
 $client->age = 15; // This will no longer be discontinued
 ```
 
